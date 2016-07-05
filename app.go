@@ -10,6 +10,18 @@ func (h Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
   fmt.Fprint(w, "Hello!")
 }
 
+// build-max-heap(a)
+//   heap_length[a] <- length[a]
+//   for i; i >= 1; i--:
+//     max-heapify(a, i)
+func Heapify(arr []int) []int {
+
+}
+
+func HeapSort(arr []int) []int {
+  
+}
+
 func InsertionSort(arr []int) []int {
   var size = len(arr)
 
